@@ -1,0 +1,54 @@
+.login{
+background: #f1f1f1;
+width: 70%;
+margin-left: 15%;
+}
+.login label{
+font-size: 20px;
+}
+.inputemail, .inputpassword, .registrationinput{
+padding: 10px 12px;
+border-radius: 5px;
+width: 50%;
+}
+.login button{
+	padding: 10px 12px;
+border-radius: 5px;
+width: 30%;
+font-size: 20px;
+}
+.btnlogin{
+	background: teal;
+	cursor: pointer;
+}
+.btnforgot{
+	background: #00000000;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.registration{
+background: #f1f1f1;
+width: 70%;
+margin-left: 15%;
+display: none;
+}
+.registration label{
+font-size: 20px;
+}
+.registration button{
+	padding: 10px 12px;
+border-radius: 5px;
+width: 30%;
+font-size: 20px;
+}
+.btnregisternow{
+	background: teal;
+	cursor: pointer;
+}
+.btnlogininstead{
+	background: #00000000;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}

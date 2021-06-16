@@ -1,0 +1,54 @@
+.nav-bar{
+background: #fff;
+}
+.main-content{
+	background: #f1f1f1;
+}
+.backgrounddiv{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 90vh;
+	background-position: 100% 50;
+	overflow: hidden;
+	color: dodgerblue;
+}
+.services{
+	color: black;
+	font-size: 21px;
+	
+
+}
+.teams{
+	background: #fff;
+	display: flex;
+	padding: 10px;
+	
+}
+.subteam{
+	background: #cfcfc4;
+    margin-left: 10%;
+	width: 40%;
+	overflow: hidden;
+	padding: 10px;
+	box-shadow: 5px 10px #888888;
+	border-radius: 20px;
+}
+@media(max-width: 800px){
+	.teams{
+	background: #fff;
+	display: block;
+	padding: 10px;
+	
+}
+.subteam{
+	background: #cfcfc4;
+    margin-left: 5%;
+	width: 90%;
+	overflow: hidden;
+	padding: 10px;
+	box-shadow: 5px 10px #888888;
+	border-radius: 20px;
+}
+}

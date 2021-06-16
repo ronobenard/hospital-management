@@ -1,0 +1,115 @@
+.slidebar{
+	background: dodgerblue;
+	padding: 15px;
+	transition: all .5s ease;
+}
+.slidebar a{
+	background: #00000000;
+	padding: 10px;
+	color:  black;
+	font-size: 18px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	transition: all .9s ease;
+}
+.slidebar a:hover{
+	background: crimson;
+	padding: 10px;
+	color:  dodgerblue;
+	font-size: 18px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 2px solid yellow;
+	transition: all .9s ease;
+}
+.slidebar  .active{
+	background: crimson;
+}
+#checkmenubar, #check{
+	display: none;
+}
+
+.left-footer{
+ width: 50%;
+background: dodgerblue;
+}
+.right-footer{
+ width: 50%;
+background: dodgerblue;
+}
+.footer{
+	display: flex;
+	background: dodgerblue;
+}
+
+@media (max-width:  800px){
+.slidebar{
+	background: dodgerblue;
+	padding: 15px;
+	transition: all .5s ease;
+	width: 30%;
+	position: fixed;
+	height: 100%;
+	left: -50%;
+	top: 0%;
+
+
+}
+.slidebar a{
+	background: #00000000;
+	padding: 10px;
+	color:  black;
+	font-size: 18px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	display: block;
+	transition: all .9s ease;
+	margin-top: 15px;
+
+}
+#checkmenubar{
+	display: block;
+}
+
+#checkmenubar #btnmenu, #checkmenubar #btnclose{
+	position: absolute;
+	cursor: pointer;
+}
+#checkmenubar #btnmenu{
+	height: 30px;
+	left: 10px;
+
+}
+#checkmenubar #btnclose{
+	left: -24%;
+	top :0px;
+	transition: all .5s ease;
+	z-index: 1000;
+	position: fixed;
+	height: 30px;
+	
+}
+#check:checked ~ .slidebar{
+	left:0%; 
+}
+#check:checked ~ #checkmenubar #btnclose{
+	left: 30%;
+	top: 0px;
+}
+.footer{
+	display: block;
+	background: dodgerblue;
+}
+
+.left-footer{
+ width: 100%;
+ background: dodgerblue;
+}
+.right-footer{
+ width: 100%;
+ background: dodgerblue;
+ top: 0px;
+}
+
+
+}
